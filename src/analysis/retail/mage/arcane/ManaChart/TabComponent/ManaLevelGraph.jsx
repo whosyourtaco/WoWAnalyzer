@@ -80,7 +80,7 @@ class Mana extends PureComponent {
 
       return {
         title: `${series.name} Health`,
-        borderColor: ManaStyles[`Boss-${i}`].borderColor,
+        borderColor: ManaStyles[`Boss-${i}`]?.borderColor,
         backgroundColor: ManaStyles[`Boss-${i}`].backgroundColor,
         data,
       };
